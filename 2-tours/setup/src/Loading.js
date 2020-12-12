@@ -1,9 +1,10 @@
 import React from 'react';
+import Spinner from './loading.gif';
 
 const Loading = () => {
   return (
-    <div className="loading">
-      <h1>loading...</h1>
+    <div className='loading'>
+      <img src={Spinner} alt='Loading' />
     </div>
   );
 };
